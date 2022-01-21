@@ -1,6 +1,5 @@
 #include <sourcemod>
 #include <multicolors>
-#include <csgoturkiye>
 #include <geoip>
 
 #pragma semicolon 1
