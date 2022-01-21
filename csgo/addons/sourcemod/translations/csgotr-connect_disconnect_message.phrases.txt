@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"Unnamed"
+	{
+		"en"			"Unnamed"
+		"tr"			"İsimsiz"
+	}
+
+	"Unknown Steam ID"
+	{
+		"en"			"Unknown Steam ID"
+		"tr"			"Bilinmeyen Steam ID"
+	}
+
+    "Unknown Country"
+    {
+		"en"			"Unknown Country"
+		"tr"			"Bilinmeyen Ülke"
+	}
+	
+	"Connect Message"
+	{
+		"#format" 		"{1:s}{2:s}{3:s}"
+		"en"			"{darkblue}{2} {orange}({1}) {default}to the server {green}connected! {lightblue}[{3}]"
+		"tr"			"{darkblue}{2} {orange}({1}) {default}sunucuya {green}giriş yaptı! {lightblue}[{3}]"
+	}
+
+    "Disconnect Message"
+	{
+		"#format" 		"{1:s}{2:s}{3:s}"
+		"en"			"{darkblue}{2} {orange}({1}) {default}from the server {darkred}disconnected! {lightblue}[{3}]"
+		"tr"			"{darkblue}{2} {orange}({1}) {default}sunucudan {darkred}çıkış yaptı! {lightblue}[{3}]"
+	}
+}
