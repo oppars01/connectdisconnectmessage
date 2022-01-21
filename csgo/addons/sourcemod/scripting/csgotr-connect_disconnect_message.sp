@@ -37,6 +37,6 @@ void ChatMessage(int client, bool login = true){
             if (!GeoipCountry(s_ip, s_country, sizeof(s_country)))Format(s_country, sizeof(s_country), "%t", "Unknown Country"); 
         }else Format(s_country, sizeof(s_country), "%t", "Unknown Country"); 
         if(login) CPrintToChatAll("%t", "Connect Message", s_steam_id, s_username, s_country);
-        else CPrintToChatAll("%t", "Disconnect Message", s_steam_id, s_username, s_country);
+        else CPrintToChatAll("%t", "Disconnect Message", s_steam_id, s_username, s_country, RoundToCeil(GetClientTime(client)/60));
     }
 }

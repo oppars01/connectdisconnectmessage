@@ -27,8 +27,8 @@
 
     "Disconnect Message"
 	{
-		"#format" 		"{1:s}{2:s}{3:s}"
-		"en"			"{darkblue}{2} {orange}({1}) {default}from the server {darkred}disconnected! {lightblue}[{3}]"
-		"tr"			"{darkblue}{2} {orange}({1}) {default}sunucudan {darkred}çıkış yaptı! {lightblue}[{3}]"
+		"#format" 		"{1:s}{2:s}{3:s}{4:d}"
+		"en"			"{darkblue}{2} {orange}({1}) {default}from the server {darkred}disconnected! {lightblue}[{3}] {default} - {orchid}{4} minutes."
+		"tr"			"{darkblue}{2} {orange}({1}) {default}sunucudan {darkred}çıkış yaptı! {lightblue}[{3}] {default} - {orchid}{4} dakika."
 	}
 }
